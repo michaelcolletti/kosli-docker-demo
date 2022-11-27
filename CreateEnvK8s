@@ -8,10 +8,9 @@ yourEnvDescription="K8s $yourEnvName from $KOSLI_OWNER at Repo $repoName with Ow
 # --template artifact,evidence-type1,evidence-type2 \
 templateName=evidence-type1
 
-kosli environment declare  --environment-name  $envName \
+kosli environment declare  --name  $envName \
 	--environment-type $envType \
 	--description $yourEnvDescription \
 	--api-token $KOSLI_API_TOKEN \
 	--owner $KOSLI_OWNER 
-
 
